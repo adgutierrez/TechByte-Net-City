@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2638169447606228797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4218607138769888220}
+  - component: {fileID: 1553525710608838422}
+  - component: {fileID: 1307890577661229735}
+  m_Layer: 0
+  m_Name: StadiumGoundCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4218607138769888220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2638169447606228797}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.43749994, z: 0.006249928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4863574597872581543}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1553525710608838422
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2638169447606228797}
+  m_Mesh: {fileID: -3839292387146156112, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+--- !u!23 &1307890577661229735
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2638169447606228797}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6202392741857895490, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 5287575347563397396, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -3361644990324909706, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 6795462705980167066, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -1753293998938018984, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -7255647052170860681, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 3932093801279008361, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 744341859558495992, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -5893160060819351940, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 7012996630860450668, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 8090972821931202349, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 325747997601164529, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 5592586605222830120, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -1620831494050667447, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -2227443560164706194, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -8810999618182316239, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 7606485147054774813, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -4173704816518147128, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: -6623401058580433758, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  - {fileID: 6809843806576099921, guid: bc321453c5c351940b7276f27b9ebd1f, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &5203122087132045597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4863574597872581543}
+  m_Layer: 0
+  m_Name: 1stRR-Stadium
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4863574597872581543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203122087132045597}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 753}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4218607138769888220}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
